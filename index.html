@@ -2,11 +2,27 @@
 <html>
 <head>
 	<title>GIT HUB MINI PROJECT 1</title>
+	<style>
+		body {background-color: #e9c4e7;}
+		table {border-collapse: separate;
+				border-spacing: 20px 30px;
+				border: 7px solid green;
+				padding: 75px; background-image: url(backgroundpic3.jpg);}
+		table.auto {table-layout: auto;}
+		caption {caption-side: top; color: blue; font-size: 30px;}
+		td {color: yellow; font-size: 20px;}
+		tr {background-color: red;}
+		td.shade {background-color: pink; font-size: 20px; color: blue;}
+		td.boom {background-color: cyan; font-size: 20px; color: red;}
+		h1 {padding: 20px; background-color: lightgreen; border:5px solid blue;}
+
+	</style>
 </head>
 <body>
 	<h1 align="center">My UNIQUE SCHEDULE</h1>
-		<table align="center" border="7">
-		<tr align="center" bgcolor="yellow">
+		<table class="auto" align="center" border="7">
+			<caption> THIS IS MY WEEKLY SHEDULE OF ACTIVITIES</caption>
+		<tr align="center" bgcolor="red">
 			<td><b>DAY</b></td>
 			<td><b>MON</b></td>
 			<td><b>TUE</b></td>
@@ -18,22 +34,22 @@
 		</tr>
 		<br/>
 		<tr>
-			<td><b>6:00am</b></td>
+			<td class="time"><b>6:00am</b></td>
 			<td align="center" colspan="7">WAKE-UP</td>
 		</tr>
 		<br/>
 		<tr>
-			<td><b>7:00am - 8:00am</b></td>
+			<td class="time"><b>7:00am - 8:00am</b></td>
 			<td align="center" colspan="7">BREAKFAST</td>
 		</tr>
 		<br/>
 		<tr>
 			<td><b>10:30am-12:30pm</b></td>
-			<td></td>
+			<td>READ EMAILS</td>
 			<td>SWIMMING</td>
 			<td>GROCERIES</td>
 			<td>SWIMMING</td>
-			<td></td>
+			<td>READ EMAILS</td>
 			<td>SPORTS</td>
 			<td>CHURCH</td>
 		</tr>
@@ -63,18 +79,18 @@
 		<br/>
 		<tr>
 			<td><b>8:00pm-10:pm</b></td>
-			<td><strong>I T Class</strong></td>
-			<td><strong>I T Class</strong></td>
+			<td class="shade"><strong>I T Class</strong></td>
+			<td class="shade"><strong>I T Class</strong></td>
 			<td></td>
-			<td>I T ASSIGNMENT</td>
-			<td>I T ASSIGNMENT</td>
+			<td class="boom"><strong>I T ASSIGNMENT</strong></td>
+			<td class="boom"><strong>I T ASSIGNMENT</strong></td>
 			<td></td>
 			<td>RELAX/TV</td>
 		</tr>
 		<br/>
 		</table>
 		<br/>
-		<h4>REMARKS: I used the following additional tags</h4>
+		<h4>REMARKS: I used the following additional tags amongst several others</h4>
 		<p><ol>
 			<li>ALIGNMENT tag</li>
 			<li>COLSPAN tag</li>
@@ -84,6 +100,7 @@
 			<li>ORDERED LIST Tag</li>
 			<li>List Tag</li>
 			<li>bgcolor tag</li>
+			<li> cascade Style Sheet (CSS)</li>
 			</ol>
 		</p>
 		<p>THANK YOU VERY MUCH</p>
